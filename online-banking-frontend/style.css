@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  a {
+    color: #666;
+    font-size: 14px;
+    display: block;
+  }
+  .login-title {
+    text-align: center;
+    color: rgb(36, 80, 223);
+  }
+
+  #login-page {
+    display: flex;
+  }
+  .notice {
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+  }
+  .login {
+    width: 60%;
+    height: 100vh;
+    background: #FFF;
+    padding: 70px;
+  }
+  .login a {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .form-login {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  .form-login label {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    color: #666;
+  }
+  .input-email,
+  .input-password,
+  .input-id,
+  .input-name {
+    width: 100%;
+    background: #DDD;
+    border-radius: 18px;
+    margin: 4px 0 10px 0;
+    padding: 10px;
+    display: flex;
+  }
+  .icon {
+    padding: 4px;
+    color: #666;
+    min-width: 30px;
+    text-align: center;
+  }
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 4px 0;
+    outline: none;
+  }
+  button[type="submit"] {
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    padding: 14px;
+    background: #008552;
+    color: #FFF;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: ease all 0.3s;
+  }
+  button[type="submit"]:hover {
+    opacity: 0.9;
+  }
+  .background {
+    width: 70%;
+    padding: 40px;
+    height: 95vh;
+    background: url('https://www.rbi.org.in/commonperson/English/images/SAFE%20BANKING%20(05052020)_01.gif');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: right;
+    flex-direction: row;
+  }
+  .background-reg {
+    width: 70%;
+    padding: 40px;
+    height: 95vh;
+    background: url('https://www.rbi.org.in/commonperson/English/images/SAFE%20BANKING%20REVISED%20GIF.gif');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: right;
+    flex-direction: row;
+  }
+  .background-off {
+    width: 70%;
+    padding: 40px;
+    height: 95vh;
+    background: url('https://www.rbi.org.in/commonperson/English/images/SAFE%20BANKING%20(05052020)_04.gif');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: right;
+    flex-direction: row;
+  }
+  .created {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .created p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #008552;
+  }
+  .created a {
+    color: #666;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 0;
+  }

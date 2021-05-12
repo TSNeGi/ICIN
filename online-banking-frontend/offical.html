@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+    }
+  </style>
+  <title>ICIN Bank</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <ul class="nav nav-pills nav-justified">
+      <li class="active"><a data-toggle="tab" href="#home">ICIN</a></li>
+      <li><a data-toggle="tab" href="#menu1">User's Account</a></li>
+      <li><a data-toggle="tab" href="#menu2">Requests</a></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li><a href="ICIN.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+
+    </ul>
+
+
+
+
+    <div class="tab-content">
+
+
+      <div id="home" class="tab-pane fade in active">
+        <h2>ICIN Bank</h2>
+        </br>
+        <div class="container-fluid">
+          <!-- Control the column width, and how they should appear on different devices -->
+          <div class="row">
+            <div class="col-sm-6">
+              <h3> Hi Admin, Welcome to ICIN Online Banking Services.</h3>
+              </br>
+
+              <!-- security Tips-->
+              <h3 align="center">Security Tips</h3>
+              </br>
+              <div class="list-group">
+                <a class="list-group-item list-group-item-success">Change your Internet Banking password at periodical
+                  intervals.</a>
+                <a class="list-group-item list-group-item-info">Always check the last log-in date and time in the post
+                  login page.</a>
+                <a class="list-group-item list-group-item-warning">Avoid accessing Internet banking accounts from cyber
+                  cafes or shared PCs.</a>
+                <a class="list-group-item list-group-item-danger">Do not click on any links in any e-mail message to
+                  access the site.</a>
+              </div>
+
+
+            </div>
+            <div class="col-sm-6">
+              <img src="https://rbikehtahai.rbi.org.in/images/cyber-security-popup.jpg">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Menu 1-->
+
+
+
+
+
+
+      <div id="menu1" class="tab-pane fade">
+        <h3>User's Account</h3>
+        </br>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Account</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Enable</th>
+                <th>Disable</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>T S Negi</td>
+                <td>12345678</td>
+                <td>t@mail.com</td>
+                <td>987654321</td>
+                <td><button>Enable</button></td>
+                <td><button>Disable</button></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+
+
+         <!-- Menu 2-->
+
+
+      <div id="menu2" class="tab-pane fade">
+        <h3>Requests</h3>
+        </br>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Account No</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+              
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>12345678</td>
+                    <td>T S Negi</td>
+                    <td>t@mail.com</td>
+                    <td>Pending</td>
+                    <td><button>Approve</button></td>
+                  </tr>
+              
+                  <tr>
+                    
+                    <td>12345678</td>
+                    <td>T S Negi</td>
+                    <td>t@mail.com</td>
+                    <td>Pending</td>
+                    <td><button>Approve</button></td>
+                  </tr>
+                  <tr>
+                    
+                    <td>12345678</td>
+                    <td>T S Negi</td>
+                    <td>t@mail.com</td>
+                    <td>Pending</td>
+                    <td><button>Approve</button></td>
+                  </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
